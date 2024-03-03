@@ -28,7 +28,7 @@
 .sidebar .navigation ul li:hover,
 .sidebar .navigation ul li:active,
 .sidebar .navigation ul li:focus {
-    background-color: #ecb2b2;
+    background-color: #333333;
 }
 
 .sidebar .navigation ul li a {
@@ -41,6 +41,13 @@
 .sidebar .navigation ul li:hover a,
 .sidebar .navigation ul li:active a,
 .sidebar .navigation ul li:focus a {
-    background-color: #eee5e5;
+    background-color: #333333;
 }
 
+.sidebar .navigation ul li.active {
+    background-color: #333333;
+}
+
+.sidebar .navigation ul li.active a {
+    background-color: #ffffff;
+}
